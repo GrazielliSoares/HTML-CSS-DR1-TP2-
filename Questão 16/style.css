@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .menu-navegacao {
+    position: absolute;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 576px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 30, 30);
+    margin: auto;
+  }
+  
+  .imagem-album {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+    margin-bottom: 4rem;
+  }
+  
+  .imagem-container {
+    color: white;
+    margin: 1rem;
+  
+    h2 {
+      margin: -3rem 1rem;
+    }
+  
+    span {
+      margin: -2rem 1rem;
+    }
+  }
+  
+  .album {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+  }
+  
+  .album-icone {
+    width: 60px;
+    position: absolute;
+    margin: -3rem 2.5rem;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .time {
+    margin: 0 2rem;
+    color: white;
+  }
+  
+  .linha-tempo {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  
+    hr {
+      background-color: rgb(40, 129, 254);
+      height: 2px;
+      border: none;
+    }
+  
+    .marcador {
+      color: rgb(40, 129, 254);
+      border: 6px solid rgb(40, 129, 254);
+      width: 1px;
+      border-radius: 25px;
+      margin: -0.4rem 4rem;
+      margin-bottom: 1px;
+      cursor: pointer;
+    }
+  }
+  
+  .icones {
+    display: flex; 
+    gap: 1.7rem;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+  
+    img {
+      width: 45px;
+      cursor: pointer;
+    }
+  
+    .principal {
+      width: 75px;
+    }
+  }

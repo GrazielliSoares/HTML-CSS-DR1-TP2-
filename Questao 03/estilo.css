@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Handjet:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap");
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#pai {
+  background-color: rgb(243, 206, 236);
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.primeiro {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  border: 3px solid white;
+  text-decoration: underline;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.segundo {
+  font-family: "Handjet", sans-serif;
+  font-size: 2em;
+  border: 5px dotted brown;
+  text-align: right;
+  font-weight: 700;
+}
+
+.terceiro {
+  font-family: "Baskervville SC", serif;
+  text-decoration: line-through;
+  background-color: aquamarine;
+  display: inline-block;
+  border: 6px solid red;
+  border-top-left-radius: 50px;
+  padding: 60px;
+}
+
+.quarto {
+  font-family: "Dancing Script", cursive;
+  font-size: 500%;
+  font-weight: bold;
+  background-image: url("../Questão\ 02/oceano.jpg");
+  color: black;
+  text-align: center;
+  border-radius: 30px;
+  padding-top: 60px;
+}
